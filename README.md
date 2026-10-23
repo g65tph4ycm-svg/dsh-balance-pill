@@ -32,8 +32,8 @@ git clone https://github.com/g65tph4ycm-svg/dsh-balance-pill.git
 
 然后把克隆下来的目录装进 DSH：
 
-- 在 DSH 的插件（Plugins）页面选择从本地目录安装，或
-- 让 agent 执行 `plugin_manager` 的 `install_bundle`，`target` 指向该目录的绝对路径。
+- 让 agent 执行 `plugin_manager` 的 `install_bundle`，`target` 指向该目录的绝对路径（已验证）；
+- 或使用 Plugins 页面提供的本地目录安装入口（若你的 DSH 版本提供）。
 
 安装完成后刷新页面，右下角就会出现胶囊。卸载用 `remove_bundle` 指向 `dsh-balance-pill`。
 
