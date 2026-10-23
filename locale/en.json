@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Balance",
+    "description": "A corner pill showing the signed-in DeepSeek account balance, with details on click and a color change when the balance runs low."
+  }
+}

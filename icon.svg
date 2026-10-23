@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DeepSeek Balance">
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#4D6BFE"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 19 L32 32 L43 19"/>
+    <path d="M32 32 L32 47"/>
+    <path d="M24 36 L40 36"/>
+    <path d="M24 42 L40 42"/>
+  </g>
+</svg>

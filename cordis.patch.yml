@@ -1,0 +1,6 @@
+- insert:
+    - id: dsh-balance-pill
+      name: 'dsh-balance-pill'
+      config:
+        warnBelow: 10
+        dangerBelow: 5

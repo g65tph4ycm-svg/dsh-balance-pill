@@ -1,0 +1,46 @@
+{
+  "name": "dsh-balance-pill",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A floating corner pill for DeepSeek Harness that shows your signed-in DeepSeek account balance.",
+  "license": "MIT",
+  "author": "g65tph4ycm-svg",
+  "homepage": "https://github.com/g65tph4ycm-svg/dsh-balance-pill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g65tph4ycm-svg/dsh-balance-pill.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "balance",
+    "cordis"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  }
+}
